@@ -1,0 +1,9 @@
+babel.config.js
+metro.config.js
+jest.config.js
+postcss.config.js
+tailwind.config.js
+**/node_modules/**
+.eslintrc.js
+index.js
+global.css

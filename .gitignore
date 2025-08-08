@@ -1,34 +1,81 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+!debug.keystore
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+#
+# Android Profiling
 # Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
+# Android/IntelliJ
+# Bundle artifact
+# For more information about the recommended setup visit:
+# Google Services (e.g. APIs or Firebase)
+# Gradle files
+# IntelliJ
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# Keystore files
+# Local configuration file (sdk path, etc)
+# Log/OS Files
+# OSX
+# Ruby / CocoaPods
+# Temporary files created by Metro to check the health of the file watcher
+# Xcode
+# Yarn
+# fastlane
+# https://docs.fastlane.tools/best-practices/source-control/
+# node.js
+# screenshots whenever they are needed.
+# testing
+**/.xcode.env.local
+**/Pods/
+**/fastlane/Preview.html
+**/fastlane/report.xml
+**/fastlane/screenshots
+**/fastlane/test_output
 *.aab
 *.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
+*.hmap
 *.hprof
+*.iml
+*.ipa
+*.jks
+*.jsbundle
+*.keystore
+*.log
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xcuserstate
+.DS_Store
+.cxx/
+.externalNativeBuild/
+.gradle
+.gradle/
+.idea
+.idea/
+.kotlin/
+.metro-health-check*
+.yarn/*
+/coverage
+/vendor/bundle/
+DerivedData
+build/
+captures/
+deploymentTargetDropDown.xml
+google-services.json
+local.properties
+misc.xml
+node_modules/
+npm-debug.log
+output-metadata.json
+render.experimental.xml
+xcuserdata
+yarn-error.log
