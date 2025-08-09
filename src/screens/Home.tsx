@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, TextInput, ActivityIndicator, TouchableOpacity, FlatList } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { getProvinces, getCities, getCosts, type City, type Province, type CostRequest, type ShippingCostResponse } from '../api/rajaOngkir';
+// If you want to call RajaOngkir directly, use: '../api/rajaOngkir'
+import { getProvinces, getCities, getCosts, type City, type Province, type CostRequest, type ShippingCostResponse } from '../services/backend';
 
 const debounce = (fn: (...args: any[]) => void, delay = 400) => {
   let t: NodeJS.Timeout | undefined;

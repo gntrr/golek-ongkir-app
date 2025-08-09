@@ -74,8 +74,11 @@ google-services.json
 local.properties
 misc.xml
 node_modules/
+yarn-error.log
+.env
 npm-debug.log
 output-metadata.json
 render.experimental.xml
 xcuserdata
 yarn-error.log
+.env.example

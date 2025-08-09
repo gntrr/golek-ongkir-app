@@ -1,3 +1,5 @@
-export const RAJA_ONGKIR_BASE = 'https://api.rajaongkir.com/starter';
-// TODO: replace with your actual API key or load from env.
-export const RAJA_ONGKIR_KEY = process.env.RAJA_ONGKIR_KEY || 'YOUR_API_KEY_HERE';
+export const API_BASE_URL = process.env.API_BASE_URL || '';
+if (!API_BASE_URL) {
+	// eslint-disable-next-line no-console
+	console.warn('[Backend] Missing API_BASE_URL. Set it in .env (e.g., https://your-api.example.com)');
+}

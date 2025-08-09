@@ -1,6 +1,9 @@
 module.exports = function (api) {
   api.cache(true);
-  const plugins = ['nativewind/babel'];
+  const plugins = [
+    'nativewind/babel',
+    ['inline-dotenv', { path: '.env' }],
+  ];
   if (process.env.NODE_ENV !== 'test') {
     plugins.push('react-native-reanimated/plugin');
   }
